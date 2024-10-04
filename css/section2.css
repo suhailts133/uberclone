@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'regular2';
+    src: url('../fonts/regular2.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'med';
+    src: url('../fonts/medium.woff2') format('woff2');
+}
+
+
+
+.p1a{
+    width: 100%;
+    height: 36px;
+    background-color: black;
+}
+
+
+.p2{
+    height: 386px;
+    width: 100%;
+    background-color: white;
+}
+
+.div_p2{
+    margin: 0px 119px;
+}
+
+.suggest{
+    color: black;
+    font-family: 'bold' , sans-serif;
+    font-size: 36px;
+}
+
+.div__p2{
+    padding: 64px;
+}
+
+.title_card{
+    font-family: 'med' , sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.context_div{
+    width: 212px;
+
+}
+
+.context{
+    font-family: 'regular2' , sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 8px 0px;
+}
+
+.detail_btn{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'med' , sans-serif;
+    transition: background-color 0.2s;
+}
+
+.detail_btn:hover{
+    background-color: rgb(221, 221, 221);
+    transition: background-color 0.2s;
+}
+
+.div_card{
+    border-radius: 8px;
+    width: 377px;
+    height: 160px;
+    padding: 16px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+
+.ride_img{
+    position: relative;
+    top: -7px;
+}
+
+.ride{
+    width: 128px;
+    height: 128px;
+}
+
+.div_cards{
+    display: flex;
+    gap: 20px;
+}
+

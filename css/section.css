@@ -1,0 +1,170 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'regular2';
+    src: url('../fonts/regular2.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'med';
+    src: url('../fonts/medium.woff2') format('woff2');
+}
+
+
+
+.input1{
+    border-radius: 8px;
+    margin: 15px 30px 30px 0px;
+    position: relative;
+   padding: 0px 25px;
+    width: 396px;
+    height: 47.2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    gap: 12px;
+}
+
+.input1a{
+    border-radius: 8px;
+    margin: 18px 30px 30px 0px;
+    position: relative;
+   padding: 0px 25px;
+    width: 396px;
+    height: 47.2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    gap: 12px;
+}
+
+.loc{
+    position: relative;
+    right: -10px;
+}
+
+.input1_f1{
+    position: relative;
+    left: -18px;
+    color: rgb(94, 94, 94);
+    font-family: 'regular2' , sans-serif;
+    border: none;
+    font-size: 16px;
+    flex-grow: 1;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.circle{
+    position: relative;
+    left: -13px;
+}
+.square{
+    position: relative;
+    left: -13px;
+}
+
+.line{
+    position: relative;
+    bottom:49px ;
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    margin: 0px 21.2px;
+}
+
+.input1_change{
+    position: relative;
+    bottom: 97px;
+}
+
+
+
+
+/* section {
+    height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center;
+    background-color: black;
+    font-size: 2rem; */
+/* } */ 
+
+section{
+    height:825px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    font-size: 2rem;
+    
+}
+
+.div_p1{
+    height: 100vh;
+    margin: 0px 119px;
+}
+
+.div__p1 {
+    padding: 64px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+h1{
+    font-family: 'bold' , sans-serif;
+    color: white;
+    font-size: 52px;
+    margin-bottom: 36px;
+}
+
+p{
+    font-family: 'regular2' , sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.title{
+    width: 440px;
+}
+
+
+.btn1{
+    position: relative;
+    top: -93px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'med' , sans-serif;
+    background-color: white;
+    padding: 14px 25px;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+.btn1:hover{
+    background-color: whitesmoke;
+    transition: background-color 0.2s;
+}
+
+.sec1{
+    position: relative;
+    top: 164px;
+}
+
+
+
+.sec2{
+    width: 558px;
+    height: 698px;
+}

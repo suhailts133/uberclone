@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'med';
+    src: url('../fonts/medium.woff2') format('woff2');
+}
+
+
+footer{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 970px;
+    background-color: black;
+}
+
+
+
+.footer_div{
+    margin: 0px 183px;
+}
+
+.footer_div2{
+    padding-top: 110px;
+}
+
+.footer_head{
+    font-family: 'regular', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.help_center{
+    font-family: 'regular2' , sans-serif;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.footer_detail{
+    display: flex;
+    gap: 180px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.head{
+    font-family: 'med' , sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.ancor{
+    text-decoration: none;
+    font-family: 'regular2' , sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.svgs{
+    margin-right: 80px;
+}
+
+.logos{
+    margin-top: 60px;
+}
+
+.location{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    position: relative;
+    bottom: -14px;
+    /* align-items: center; */
+}
+
+.logos_parts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.loc-svg{
+    margin-right: 5px;
+}
+
+.play_app{
+    margin-top: 60px;
+}
+
+.playapp{
+    margin-right: -8px;
+}
+
+.last_part1_a, .last_part1{
+    font-family: 'regular2' , sans-serif;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+
+.last_part1_a{
+    margin-left: 18px;
+}
+
+.last_part1{
+    font-family: 'regular2' , sans-serif;
+    text-decoration: none;
+    color: #AFAFAF;
+    font-size: 12px;
+}
+
+.footer_last{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.up-arrow {
+    display: inline-flex;  
+    justify-content: center;
+    align-items: center;
+    width: 48px; 
+    height: 48px;  
+    border-radius: 50%;  
+    background-color: white;  
+    position: absolute;
+    right: 20px;  
+    text-decoration: none;  
+
+  }

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('../fonts/medium.woff2') format('woff2');
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color:black;
+    height: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 122px;
+    
+}
+
+
+.navbar__part1{
+    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar__part2{
+    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+
+}
+
+.abt{
+    position: relative;
+    top: -3px;
+}
+
+.drop{
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+
+.Uber{
+    position: relative;
+    font-size: 24px;
+    font-family: "regular";
+    color: white;
+}
+
+.nav__links{
+    font-family: "medium";
+    font-size: 14px;
+    padding: 10px 12px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition: background-color  0.2sec;
+}
+
+.nav__links:hover{
+    background-color: rgb(40, 40, 40);
+    transition: background-color  0.2sec;
+}
+
+
+.nav__links1{
+    border: none;
+    font-family: "medium";
+    font-size: 14px;
+    padding: 10px 12px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    transition: background-color  0.2sec;
+}
+
+.nav__links1:hover{
+    background-color: whitesmoke;
+    transition: background-color  0.2sec;
+}
+
+.globe{
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+.nav__link11{
+    position: relative;
+    left: 10px;
+}
